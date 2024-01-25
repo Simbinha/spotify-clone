@@ -175,7 +175,47 @@ width: 80px;
 }
 
 .disclaimer-premium {
-    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);    
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
+.disclaimer-premium .text {
+    font-family: 'DM Sans', sans-serif;
+    color:#fff;
+    flex-shrink: 0;
+}
+
+.disclaimer-premium .title-disclaimer-premium {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.disclaimer-premium .subtitle-disclaimer-premium {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.disclaimer-premium button {
+    background-color: #fff;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 40px;
+    margin: 8px;
+    padding: 14px 30px;
+    flex-shrink: 0;
+}
 
